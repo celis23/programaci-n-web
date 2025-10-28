@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.contenedor {
+    display: flex;
+    width: 900px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* Lado izquierdo (azul) */
+.lado-azul {
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lado-azul h1 {
+    font-size: 30px;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #ffffff;
+    width: fit-content;
+}
+
+.lado-azul p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 28px;
+}
+
+.btn-info {
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 10px 24px;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* Lado derecho (blanco) */
+.lado-blanco {
+    width: 50%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lado-blanco h2 {
+    font-size: 26px;
+    color: #333333;
+    margin-bottom: 24px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #2563eb;
+    width: fit-content;
+}
+
+
+.lado-blanco input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 18px;
+    border: none;
+    background-color: #f5f5f5;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    transition: none;      
+}
+
+.lado-blanco input:focus {
+    background-color: #f5f5f5;  
+    box-shadow: none;           
+}
+
+/* Botón sin animación */
+.boton-login {
+    width: 100%;
+    padding: 14px;
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: none;           
+}
+
+.boton-login:hover {
+    background-color: #2563eb; 
+}
